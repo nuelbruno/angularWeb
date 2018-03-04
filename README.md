@@ -139,6 +139,65 @@ git add .
 git commit -m "init commint"
 
 
+## Git Remote
+
+-push - pc to remote
+-pull - remote to pc
+-while pull copy is only in origin/master not in local pc, then a merge is needed
+- pointer is one points to the latest branch ( Head pointer)
+
+- fetch the latest and merge the new change and push the changes
+
+## Setup Remote Repository
+
+- git remote  // list of remote git
+- git remote add origin https://github_url
+- git remote -v // list with more info
+
+- cat .git/config // file has all information
+
+- git remote rm origin
+
+## Remote Commit - Push
+
+- git push -u origin(alias) branchname
+  git push -u origin master
+
+- git branch // will show local pc branch
+- git branch -r // shows remote branch list
+
+- git branch -a // shows both local and remote
+
+## Clone remote repositry - Pull down
+
+-git clone https;//github_url
+-git clone https://gitulr foldername
+
+## Tracking Branches
+
+- -u keep track of the remote branch
+
+- git commit -am "commit message"
+- get log --oneline //local 
+- get log --oneline origin/master //  remote
+- get diff origin/master..master
+
+- get push 
+
+- git fetch  // only brings to origin/master not to local pc code
+
+- git merge origin/master
+
+-git pull = get fetch + git merge
+
+-git checkout -b branchname origin/branchname
+git checkout -b track origin/track
+
+- -fetch - merge - push // if any problem
+
+## Collaboration
+
+- click admin in github page -> collaborate -> add the users
 
 
 
