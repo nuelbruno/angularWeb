@@ -21,6 +21,10 @@ npm install
 
 npm start
 
+## VS code plugin
+
+- move Ts (move the typescript file one folder to other)
+- Typescript hero ( arrange the import files)
 
 ---------------------------------------------------------------------------------------------------
 go to project folder
